@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" lang="EN" />
+    <title>Dalton Chancellor's Portfolio</title>
+    <link rel="stylesheet" href="../style.css" />
+</head>
+<body class="main">
+    <nested-header></nested-header>
+    <div class="banner">
+        <div class="banner-content">
+        <h2 class="banner-heading">Poker</h2>
+            <div class="banner-image-container">
+                    <img src="../img/experiment-poker.jpg" alt="Gameplay screen of a five-person poker game where the player has a 2 of clubs and a 9 of diamonds" class="banner-image-wide" />
+            </div>
+            <div class="condensed">
+                <p>
+                    Largely inspired by Telltale Games's "Poker Night at the Inventory", this prototype featured four characters who will talk during the game using their own unique lines for various situations and make decisions based on their held cards and the river on the table as to whether or not they should fold, call, or raise.
+                    The logic to get poker hands ranked properly took up the most time and energy, but by the end, worked out perfectly.
+                    Additionally, some time was put into animating the cards as they were dealt or revealed, as well as showing everyone's most recent actions on their player cards at the top of the screen.
+                    Data for all "players" in every game was stored in scriptable objects, in order to aggregate that data to see win/loss rates, lifetime money earned/lost, etc.
+                    Another interesting problem that was solved, was the depth of comparing the remaining players' cards to one another at the end of the round, and determining which combination of the 7 cards available led to the most powerful 5-card hand, and determining if players encountered a true tie.
+                    Side-pots were also implemented properly, if one player went all-in before the other players were done betting.
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="banner">
+        <div class="banner-content">
+        <h2 class="banner-heading">On the Road</h2>
+            <div class="banner-image-container">
+                    <img src="../img/experiment-roadtrip.jpg" alt="Gameplay screen showing a vehicle moving across a screen, a night/day cycle, and an event pop-up telling the player that they have run out of gasoline" class="banner-image-wide" />
+            </div>
+            <div class="condensed">
+                <p>
+                    Inspired by The Oregon Trail (and Organ Trail), this game was a modern-day roadtrip where the perils were things like running out of gas, stopping to get snacks, and making small narrative choices along the way to decide on the path that the player takes.
+                    This game additionally incorporated a day/night cycle, which would affect the events that appeared.
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="banner">
+        <div class="banner-content">
+        <h2 class="banner-heading">Unity Relay</h2>
+            <div class="banner-image-container">
+                    <img src="../img/experiment-relay.jpg" alt="Gameplay screen showing a multiplayer lobby with a login code" class="banner-image-wide" />
+            </div>
+            <div class="condensed">
+                <p>
+                    A foray into the Unity Relay system for networked lobbies, with the goal to create a join-code system similar to the ones found in Among Us and Unrailed.
+                    Using Unity's Relay system allows for cross-platform play (within limits, as html5 is not supported) and uses Unity's own servers rather than needing to run them on your own.
+                    Combined with prior experience with Netcode for Gameobjects, this provides an easy solution to quickly get online multiplayer prototypes working.
+                    As an added challenge, I also tried to get a hybrid of local and online players working (using the Unity Input System for the local input handling), which was tricky, but not impossible.
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <repeating-footer></repeating-footer>
+    <script src="../templating.js"></script>
+</body>
+</html>
