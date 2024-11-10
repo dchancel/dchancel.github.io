@@ -125,6 +125,93 @@ p{
     color:var(--accent-color)
 }
 
+.games-post{
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.games-banner-content{
+    color:var(--accent-color);
+    margin-left:0;
+    margin-right:0;
+    padding-bottom:5px;
+}
+
+.games-banner-image{
+    width:100%;
+}
+
+.games-banner-image-container{
+    max-width:fit-content;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    display:flex;
+}
+
+.games-banner-image-tile{
+    margin-top:10px;
+    margin-left:1%;
+    margin-right:1%;
+    margin-bottom:5px;
+    width:35%;
+    display:inline;
+    float:none;
+}
+
+.games-banner-image-tile p{
+    text-indent: 0;
+    width:auto;
+}
+
+.games-container{
+    background-color: var(--utility-color);
+    border-radius: 20px;
+    padding-bottom: 20px;
+    padding-top:1px;
+    margin-top:10px;
+}
+
+.games-capsule{
+    position:relative;
+}
+
+.games-capsule{
+    padding-top:20px;
+    padding-bottom:10px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.games-capsule img{
+    width:100%;
+    opacity: 40%;
+    background-color: #000000;
+}
+
+.games-capsule-text-head{
+    position:absolute;
+    left:20px;
+    top:10px;
+    color: var(--accent-color);
+}
+
+.games-capsule-text-head h3{
+    color:var(--secondary-color);
+}
+
+.games-capsule-text-foot{
+    position:absolute;
+    left:20px;
+    bottom:20px;
+    color: var(--accent-color);
+}
+
+.games-capsule-text-foot h3{
+    color:var(--secondary-color);
+}
+
 .header{
     color:var(--primary-color);
 }
@@ -209,6 +296,14 @@ p{
     border-radius: 15px;
     padding-bottom: 20px;
     filter:drop-shadow(10px 10px 10px var(--shadow))
+}
+
+.post-container p{
+    color:var(--primary-color);
+}
+
+.post-container ul{
+    color:var(--primary-color);
 }
 
 .post-contributions{
