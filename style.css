@@ -125,10 +125,6 @@ p{
     color:var(--accent-color)
 }
 
-.games-post{
-    margin-left:5%;
-    margin-right:5%;
-}
 
 .games-banner-content{
     color:var(--accent-color);
@@ -174,9 +170,6 @@ p{
 
 .games-capsule{
     position:relative;
-}
-
-.games-capsule{
     padding-top:20px;
     padding-bottom:10px;
     display:block;
@@ -188,6 +181,11 @@ p{
     width:100%;
     opacity: 40%;
     background-color: #000000;
+}
+
+.games-post{
+    margin-left:5%;
+    margin-right:5%;
 }
 
 .games-capsule-text-head{
